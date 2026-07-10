@@ -1,77 +1,102 @@
 # Learning Roadmap
 
-> Phase-wise study plan. Each phase unlocks the next. Do not skip phases.
+> Ordered pattern progression from fundamentals to advanced. Each tier must be solid before moving to the next.
 
 ---
 
-## Phase 1 — Foundations (Current)
+## Tier 1 — Foundation (Weeks 1–3)
 
-**Goal:** Master the 4 core patterns that appear in 60%+ of interview problems.
+These patterns share a common DNA: maintain two indices that converge toward an answer. Master these first because every subsequent pattern builds on linear traversal discipline.
 
-| Pattern | Problems | Target Mastery | Status |
-|---|---|---|---|
-| Two Pointers | LC27, LC977, LC167, LC11, LC15, LC42, LC16, LC75, LC88 | 90% | 🟡 Active |
-| Sliding Window | LC209, LC3, LC567 | 90% | 🟡 Active |
-| Monotonic Stack | LC496, LC739, LC901, LC84 | 85% | 🟡 Active |
-| Binary Search on Answer | LC875, LC1011, LC1283 | 85% | 🟡 Active |
-
-**Exit Criteria:** All 4 patterns at 85%+ mastery. Can recognize and frame solutions within 2 minutes without hints.
-
----
-
-## Phase 2 — Trees & Graphs
-
-**Goal:** Handle tree traversal variants and standard graph algorithms.
-
-| Pattern | Key Problems | Target Mastery |
+| Pattern | Goal | Entry Problem |
 |---|---|---|
-| Binary Tree Traversal (DFS/BFS) | LC104, LC102, LC112, LC226 | 90% |
-| Binary Search Tree | LC98, LC230, LC450 | 85% |
-| Graphs (BFS/DFS) | LC200, LC133, LC207 | 85% |
-| Union Find | LC547, LC684 | 80% |
+| Two Pointers | Reduce O(n²) to O(n) on sorted arrays | LC27 (Remove Element) |
+| Sliding Window | Optimize subarray/substring queries | LC209 (Min Size Subarray Sum) |
+
+**Exit criteria for Tier 1:**
+- Solve any Two Pointers or Sliding Window problem cold (no hints) in under 20 minutes.
+- Explain the invariant maintained by each pattern without notes.
 
 ---
 
-## Phase 3 — Heap & Greedy
+## Tier 2 — Stack-Based Patterns (Weeks 4–5)
 
-| Pattern | Key Problems | Target Mastery |
+Monotonic Stack requires understanding *when* to pop — which is a logical leap from Tier 1. Binary Search on Answer requires abstracting a concrete problem into a feasibility function.
+
+| Pattern | Goal | Entry Problem |
 |---|---|---|
-| Heap / Priority Queue | LC215, LC347, LC373, LC1046 | 85% |
-| Greedy | LC455, LC860, LC406, LC135 | 80% |
+| Monotonic Stack | Solve next/previous greater/smaller in O(n) | LC496 (Next Greater Element I) |
+| Binary Search on Answer | Reduce optimization to binary search on a value space | LC875 (Koko Eating Bananas) |
+
+**Exit criteria for Tier 2:**
+- Design the helper/feasibility function for a new Binary Search on Answer problem without reference.
+- Implement Monotonic Stack without confusion about push/pop order.
 
 ---
 
-## Phase 4 — Dynamic Programming
+## Tier 3 — Tree Patterns (Weeks 6–8)
 
-**Note:** Do NOT start DP before Phase 1 and 2 are complete. DP problems require pattern recognition skills built in earlier phases.
-
-| Sub-Pattern | Key Problems |
+| Pattern | Core Concepts |
 |---|---|
-| 1D DP (Linear) | LC70, LC198, LC322, LC139 |
-| 2D DP (Grid) | LC62, LC64, LC1143 |
-| Knapsack Variants | LC416, LC494, LC518 |
-| Interval DP | LC516, LC312 |
+| Binary Tree Traversal | DFS (inorder, preorder, postorder), BFS (level order) |
+| Binary Search Tree | Search, Insert, Delete, Validate |
+| Tree DP | Bottom-up aggregation, diameter, max path sum |
+
+**Entry problems:** LC104, LC226, LC543, LC110, LC124
 
 ---
 
-## Phase 5 — Advanced & Mixed
+## Tier 4 — Graph Patterns (Weeks 9–11)
 
-| Pattern | Key Problems |
+| Pattern | Core Concepts |
 |---|---|
-| Backtracking | LC46, LC78, LC131, LC39 |
-| Trie | LC208, LC212 |
-| Segment Tree / BIT | LC307, LC315 |
-| System Design Patterns | — |
+| BFS/DFS on Grid | Islands, connected components, flood fill |
+| Topological Sort | Dependency ordering (Kahn’s + DFS) |
+| Union-Find | Dynamic connectivity, cycle detection |
+| Shortest Path | Dijkstra, BFS for unweighted |
+
+**Entry problems:** LC200, LC695, LC417, LC207, LC684
 
 ---
 
-## Weekly Target
+## Tier 5 — Heap & Greedy (Weeks 12–13)
 
-| Week | Goal |
+| Pattern | Core Concepts |
 |---|---|
-| Week 1–2 | Solidify Phase 1 — revision cycles for all 19 current problems |
-| Week 3–4 | Expand Two Pointers + Sliding Window (add 10 more problems each) |
-| Week 5–6 | Begin Phase 2 (Trees BFS/DFS) |
-| Week 7–8 | Phase 2 complete, begin Phase 3 |
-| Month 3 | Phase 4 DP |
-| Month 4+ | Mixed interview sets, Phase 5 |
+| Heap / Priority Queue | Top-K, merge K sorted, median stream |
+| Greedy | Local optimal → global optimal, interval scheduling |
+
+**Entry problems:** LC215, LC347, LC295, LC435, LC452
+
+---
+
+## Tier 6 — Dynamic Programming (Weeks 14–17)
+
+DP is a destination, not a starting point. All previous patterns should be solid before entering this tier.
+
+| Sub-pattern | Entry Problem |
+|---|---|
+| 1D DP (Fibonacci family) | LC70, LC198 |
+| 2D DP (Grid paths) | LC62, LC64 |
+| Subsequences | LC300, LC1143 |
+| Knapsack | LC416, LC518 |
+| Interval DP | LC516, LC1312 |
+
+---
+
+## Tier 7 — Backtracking (Weeks 18–19)
+
+| Sub-pattern | Entry Problem |
+|---|---|
+| Subsets | LC78 |
+| Permutations | LC46 |
+| Combinations | LC77, LC39 |
+| Constraint satisfaction | LC51 (N-Queens) |
+
+---
+
+## Current Position
+
+**Active:** Tier 1 + Tier 2 (all four patterns covered, consolidation phase)
+
+**Next:** Enter Tier 3 (Trees) after mastery_tracker shows ≥70% on all Tier 1/2 patterns.

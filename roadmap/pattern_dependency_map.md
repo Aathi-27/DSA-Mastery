@@ -1,57 +1,65 @@
 # Pattern Dependency Map
 
-> Which patterns must you know before learning the next one?
+> Learn patterns in dependency order. A pattern with prerequisites should only be started after its dependencies are at 60%+ mastery.
 
 ---
 
 ## Dependency Graph
 
 ```
-[Arrays & Loops] (prerequisite for everything)
-        │
-        ├─── [Two Pointers]
-        │         │
-        │         └─── [Sliding Window]
-        │                   │
-        │                   └─── [Monotonic Stack]
-        │
-        ├─── [Binary Search] ─── [Binary Search on Answer]
-        │
-        ├─── [Recursion] ─── [Trees DFS/BFS]
-        │                     │
-        │                     └─── [Backtracking]
-        │                     │
-        │                     └─── [Dynamic Programming (1D)]
-        │                                   │
-        │                                   └─── [DP (2D/Knapsack)]
-        │
-        └─── [Graphs BFS/DFS] ─── [Union Find] ─── [Topological Sort]
+Arrays / Basic Loops
+         │
+    ┌────┴─────────┐
+    │               │
+Two Pointers    Sliding Window
+    │               │
+    └────┬────────┘
+         │
+  ┌────┴────────┐
+  │               │
+Monotonic     Binary Search
+  Stack         on Answer
+  │               │
+  └────┬────────┘
+         │
+  ┌────┴────┐
+  │           │
+Trees        Heap
+  │           │
+  └──┬─────┘
+      │
+   Graphs
+      │
+  ┌──┴────┐
+  │           │
+Greedy    Dynamic Programming
+                │
+           Backtracking
 ```
 
 ---
 
-## Blocked Patterns
+## Prerequisite Table
 
-Do NOT learn these until prerequisites are at 80%+:
-
-| Pattern | Requires |
-|---|---|
-| Sliding Window | Two Pointers |
-| Binary Search on Answer | Binary Search (classic) |
-| Trees (DFS/BFS) | Recursion fundamentals |
-| Backtracking | Trees DFS |
-| DP (1D) | Recursion + Memoization |
-| DP (2D) | DP (1D) |
-| Graph Algorithms | BFS/DFS on Trees |
-| Topological Sort | Graph BFS/DFS |
-| Segment Tree | Binary Search + Arrays |
+| Pattern | Requires | Notes |
+|---|---|---|
+| Two Pointers | Array basics | Entry point |
+| Sliding Window | Array basics | Entry point |
+| Monotonic Stack | Two Pointers | Stack intuition builds on pointer movement |
+| Binary Search on Answer | Binary Search basics | Must understand classic binary search first |
+| Trees | Recursion, DFS/BFS concept | New data structure |
+| Heap | Trees (binary heap is a tree) | |
+| Graphs | Trees, BFS/DFS | Extension of tree traversal |
+| Greedy | Arrays, Sorting | Proof-by-exchange intuition |
+| Dynamic Programming | Recursion, Memoization | Hardest — enter last |
+| Backtracking | Recursion, Trees | State-space search |
 
 ---
 
-## Currently Unlocked
+## When to Move to the Next Pattern
 
-- [x] Two Pointers
-- [x] Sliding Window
-- [x] Monotonic Stack
-- [x] Binary Search on Answer
-- [ ] Trees (unlock after Phase 1 complete)
+Move forward when, for the current pattern:
+- You can identify the pattern in an unseen problem within 60 seconds.
+- You can write the framework skeleton without reference.
+- mastery_tracker.md shows ≥60%.
+- You have solved at least 3 problems cold.

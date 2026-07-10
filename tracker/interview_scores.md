@@ -1,33 +1,54 @@
 # Interview Scores
 
-> Log all mock interview sessions here. Trends matter more than individual scores.
+> Log every mock interview, timed session, or contest here. Honest scoring builds awareness of actual performance gaps.
+
+---
+
+## Scoring Rubric
+
+| Dimension | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Pattern ID | Did not identify | Identified with hints | Identified slow | Identified fast | Instant |
+| Algorithm | Could not write | Partial with errors | Wrote with minor errors | Wrote correctly | Optimal approach |
+| Code | Could not produce | Produced with major bugs | Produced with minor bugs | Clean code | Clean + optimal |
+| Edge Cases | Missed all | Missed major | Caught most | Caught all | Proactively listed |
+| Communication | Silent | Minimal | Adequate | Clear | Excellent think-aloud |
+
+Overall Score = Average of 5 dimensions.
 
 ---
 
 ## Mock Interview Log
 
-| Date | Platform | Problem 1 | Problem 2 | Pattern | Time | Hints Used | Score | Notes |
-|---|---|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |  |  |
+| Date | Problem | Pattern | Pattern ID | Algorithm | Code | Edge Cases | Communication | Total | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — | — | — | No mocks logged yet |
 
 ---
 
-## Score Rubric
+## Timed Solo Sessions
 
-| Score | Meaning |
-|---|---|
-| 9–10 | Solved optimally, explained clearly, handled edge cases |
-| 7–8 | Solved with minor prompting, good explanation |
-| 5–6 | Needed hints, incomplete complexity analysis |
-| 3–4 | Partial solution, struggled with approach |
-| 1–2 | Could not solve or major conceptual gap |
+| Date | Problem | Time Taken | Solved? | Pattern Used | Notes |
+|---|---|---|---|---|---|
+| — | — | — | — | — | |
 
 ---
 
-## Progress Trend
+## Contest Log
 
-> Plot scores over time. If trend is flat for 2+ weeks, change study approach.
+| Date | Platform | Contest | Problems Solved | Rank | Notes |
+|---|---|---|---|---|---|
+| — | — | — | — | — | |
 
-| Month | Avg Score | Problems Attempted | Patterns Weak |
+---
+
+## Patterns Under Interview Pressure
+
+After each mock, record which pattern was tested and whether performance was acceptable.
+
+| Pattern | Times Tested | Avg Score | Interview Ready? |
 |---|---|---|---|
-|  |  |  |  |
+| Two Pointers | 0 | — | No |
+| Sliding Window | 0 | — | No |
+| Monotonic Stack | 0 | — | No |
+| Binary Search on Answer | 0 | — | No |

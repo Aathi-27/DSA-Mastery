@@ -1,43 +1,59 @@
 # Revision Tracker
 
-> Spaced repetition schedule. Check this file every session to know what to revise.
+> Spaced repetition schedule. Every problem is revisited at: Same Day → +1 Day → +3 Days → +7 Days → +14 Days → +30 Days.
+> Revision = solve cold (problem statement only, no notes).
 
 ---
 
-## Revision Schedule System
+## How to Use
 
-Every problem follows this cycle after it is first learned:
-
-| Interval | When |
-|---|---|
-| Revision 1 | Same day |
-| Revision 2 | +1 day |
-| Revision 3 | +3 days |
-| Revision 4 | +7 days |
-| Revision 5 | +14 days |
-| Revision 6 | +30 days |
-
-After Revision 6: problem enters **Maintenance Mode** (revise monthly or when pattern is tested in a mock interview).
+1. When you learn a problem, fill in the “Learned On” column.
+2. Calculate all revision dates from that date.
+3. Check this file every morning. Complete all “Due Today” revisions before new problems.
+4. After a revision, mark ✅ in the corresponding column. If recall failed, mark ❌ and re-schedule +1 day.
 
 ---
 
-## Active Revision Queue
+## Revision Schedule Template
 
-> Fill this after every session. Delete rows when revision is complete.
-
-| LC # | Problem | Last Learned | Rev 1 | Rev 2 | Rev 3 | Rev 4 | Rev 5 | Rev 6 |
+| Problem | Learned On | Day 0 | +1 | +3 | +7 | +14 | +30 | Status |
 |---|---|---|---|---|---|---|---|---|
-| LC27 | Remove Element | — | — | — | — | — | — | — |
-| LC977 | Squares of Sorted Array | — | — | — | — | — | — | — |
-| LC209 | Min Size Subarray Sum | — | — | — | — | — | — | — |
-| LC875 | Koko Eating Bananas | — | — | — | — | — | — | — |
+| LC27 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC977 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC167 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC11 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC15 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC42 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC16 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC75 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC88 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC209 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC3 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC567 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC496 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC739 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC901 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC84 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC875 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC1011 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC1283 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 
 ---
 
-## Maintenance Pool
+## Revision Rules
 
-> Problems past Revision 6. Revisit monthly.
+- ✅ = Solved cold in reasonable time, remembered the key insight.
+- ❌ = Could not recall or needed a hint. Re-schedule from today + 1.
+- If a +7 or +14 day revision fails, drop confidence by 1 point in mastery_tracker.md.
+- A pattern is “interview-ready” only after the +14 day revision passes for all its problems.
 
-| LC # | Problem | Last Revised | Confidence |
+---
+
+## Pattern-Level Revision Status
+
+| Pattern | Last Revised | Next Due | Status |
 |---|---|---|---|
-|  |  |  |  |
+| Two Pointers | — | Fill in | Pending |
+| Sliding Window | — | Fill in | Pending |
+| Monotonic Stack | — | Fill in | Pending |
+| Binary Search on Answer | — | Fill in | Pending |

@@ -1,55 +1,69 @@
 # Placement Preparation Plan
 
-> Timeline and target for campus placements and off-campus applications.
+> Timeline assumes campus placement season begins approximately 6–8 months from now. Adjust dates to match your actual calendar.
 
 ---
 
-## Target Timeline
+## Phase 1 — Foundation (Months 1–3)
 
-| Month | Focus | DSA Target | Other |
-|---|---|---|---|
-| July 2026 | Phase 1 solidification | 19 → 40 problems | Resume draft |
-| August 2026 | Phase 2 (Trees + Graphs) | 40 → 100 problems | Projects live on GitHub |
-| September 2026 | Phase 3 (Heap + Greedy) | 100 → 150 problems | Mock interviews start |
-| October 2026 | Phase 4 (DP) | 150 → 220 problems | Company-specific prep |
-| November 2026 | Phase 5 + Mixed Sets | 220 → 300 problems | Interview season |
-| December 2026+ | Target: 500 problems | Revision-only mode | Full interview readiness |
+**Goal:** Build pattern recognition fluency across all core patterns.
 
----
+| Month | Focus | Target Problems |
+|---|---|---|
+| 1 | Two Pointers + Sliding Window | 20 problems |
+| 2 | Monotonic Stack + Binary Search on Answer + Trees | 25 problems |
+| 3 | Graphs + Heap + Greedy | 25 problems |
 
-## Interview Readiness Checklist
-
-### DSA
-- [ ] 300+ problems solved
-- [ ] All Phase 1–4 patterns at 80%+ mastery
-- [ ] Can solve medium problems in 20 minutes
-- [ ] Can explain time/space complexity for every solved problem
-- [ ] Mock interview score: 7+/10 consistently
-
-### Projects
-- [ ] At least 2 deployed full-stack projects
-- [ ] At least 1 ML/AI project with demo
-- [ ] All GitHub repos have clean READMEs
-
-### Communication
-- [ ] Can explain approach before coding
-- [ ] Can state assumptions clearly
-- [ ] Can walk through dry run verbally
+**Weekly rhythm:**
+- Monday–Thursday: 2 new problems per day (pattern-focused)
+- Friday: 1 mixed problem (pattern unknown)
+- Saturday: Revision day (due revisions only)
+- Sunday: Session review + tracker update
 
 ---
 
-## Target Companies
+## Phase 2 — Depth (Months 4–5)
 
-| Company | Role | DSA Level | Notes |
-|---|---|---|---|
-| Product companies (Tier 1) | SDE-1 | Hard | Phase 5 required |
-| Service companies | SDE-1 | Medium | Phase 3 sufficient |
-| Startups | SDE/ML Engineer | Medium-Hard | Portfolio + DSA |
+**Goal:** Strengthen weak patterns; tackle harder variants.
+
+| Focus | Activity |
+|---|---|
+| Dynamic Programming | Complete DP sub-patterns systematically |
+| Backtracking | Subsets, permutations, constraint problems |
+| Mixed interviews | 3 timed mock interviews per week |
+| Company-specific prep | Review company tag problems on LeetCode |
+
+**Target:** 150+ problems total, 70%+ mastery across all active patterns.
 
 ---
 
-## Mock Interview Log
+## Phase 3 — Interview Simulation (Month 6)
 
-| Date | Platform | Problem | Pattern | Result | Score |
-|---|---|---|---|---|---|
-|  |  |  |  |  |  |
+**Goal:** Simulate real interview conditions daily.
+
+| Activity | Frequency |
+|---|---|
+| Timed LeetCode contest | 1 per week |
+| 45-minute mock interview | 3 per week |
+| Behavioral question practice | 2 per week |
+| System design basics | 2 hours per week |
+
+**Checklist before placement season:**
+- [ ] 200+ problems solved
+- [ ] All patterns at 70%+ mastery
+- [ ] 10+ mock interviews logged
+- [ ] Can explain time/space complexity fluently
+- [ ] Can code on paper/whiteboard
+- [ ] Behavioral stories prepared (STAR format)
+
+---
+
+## Skill Targets by Placement
+
+| Skill | Target Level |
+|---|---|
+| Easy LeetCode | Solve in < 10 minutes |
+| Medium LeetCode | Solve in < 25 minutes |
+| Hard LeetCode | Partial solution or guided approach |
+| System design | Explain basic component design |
+| Communication | Think aloud fluently while coding |
