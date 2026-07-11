@@ -21,6 +21,14 @@
 
 ---
 
+## Variant Tracker
+
+| Pattern | Variant | Previous Status | Current Status | Session |
+|---|---|---|---|---|
+| Two Pointers | Read & Write | Learning | Practicing | Session 001 |
+
+---
+
 ## Mastery Level Definitions
 
 | Level | % | Meaning |
@@ -37,7 +45,7 @@
 
 | Problem | Pattern | Confidence | Last Revised | Notes |
 |---|---|---|---|---|
-| LC27 | Two Pointers | 4/5 | — | Clean |
+| LC27 | Two Pointers | 4/5 | 2026-07-11 | Clean |
 | LC977 | Two Pointers | 4/5 | — | Clean |
 | LC167 | Two Pointers | 4/5 | — | |
 | LC11 | Two Pointers | 3/5 | — | Invariant tricky |
@@ -46,6 +54,7 @@
 | LC16 | Two Pointers | 3/5 | — | |
 | LC75 | Two Pointers | 4/5 | — | DNF sort |
 | LC88 | Two Pointers | 4/5 | — | From end |
+| LC283 | Two Pointers | 4/5 | 2026-07-11 | Derived from LC27 pattern |
 | LC209 | Sliding Window | 3/5 | — | Shrink condition |
 | LC3 | Sliding Window | 3/5 | — | Freq map |
 | LC567 | Sliding Window | 3/5 | — | Fixed window |
@@ -62,6 +71,8 @@
 ## How to Update
 
 After every session:
+
 1. Update Mastery % (raise by 5–10% if revision was clean, lower by 5% if recall failed).
-2. Update “Revisions Done” column after each spaced-repetition checkpoint.
-3. Update “Interview Tested” once the pattern has been tested in a mock or timed context.
+2. Update "Revisions Done" column after each spaced-repetition checkpoint.
+3. Update "Interview Tested" once the pattern has been tested in a mock or timed context.
+4. Update Variant Tracker with current status after each session.
