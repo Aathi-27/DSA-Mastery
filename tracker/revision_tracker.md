@@ -14,11 +14,39 @@
 
 ---
 
-## Revision Schedule Template
+## Session 001 — Revision Queue (2026-07-11)
+
+### Tomorrow (+1 Day — 2026-07-12)
+
+- LC27 — Remove Element
+- LC283 — Move Zeroes
+- Read & Write Variant — One unseen variation
+
+### +3 Days (2026-07-14)
+
+- LC27 — Remove Element
+- LC283 — Move Zeroes
+
+### +7 Days (2026-07-18)
+
+- LC27 — Remove Element
+
+### +14 Days (2026-07-25)
+
+- LC27 — Remove Element
+
+### +30 Days (2026-08-10)
+
+- LC27 — Remove Element
+
+---
+
+## Revision Schedule
 
 | Problem | Learned On | Day 0 | +1 | +3 | +7 | +14 | +30 | Status |
 |---|---|---|---|---|---|---|---|---|
-| LC27 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC27 | 2026-07-11 | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC283 | 2026-07-11 | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC977 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC167 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC11 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
@@ -44,7 +72,7 @@
 
 - ✅ = Solved cold in reasonable time, remembered the key insight.
 - ❌ = Could not recall or needed a hint. Re-schedule from today + 1.
-- If a +7 or +14 day revision fails, drop confidence by 1 point in mastery_tracker.md.
+- If a +7 or +14 day revision fails, drop confidence by 1 point in mastery\_tracker.md.
 - A pattern is “interview-ready” only after the +14 day revision passes for all its problems.
 
 ---
@@ -53,6 +81,7 @@
 
 | Pattern | Last Revised | Next Due | Status |
 |---|---|---|---|
+| Two Pointers — Read & Write | 2026-07-11 | 2026-07-12 | Active |
 | Two Pointers | — | Fill in | Pending |
 | Sliding Window | — | Fill in | Pending |
 | Monotonic Stack | — | Fill in | Pending |
