@@ -9,8 +9,14 @@
 | Metric | Value |
 |---|---|
 | Patterns Active | 4 |
-| Problems Logged | 19 |
-| Sessions Completed | 2 |
+| Problems Logged | 20 |
+| Sessions Completed | 3 |
+| Patterns Started | 1 |
+| Patterns Mastered | 0 |
+| Unseen Problems Solved | 1 |
+| Mental Models | 3 |
+| New Invariants | 1 |
+| Recognition Triggers | 5 |
 | Overall Mastery | ~40% |
 | Next Revision Due | See [tracker/revision_tracker.md](tracker/revision_tracker.md) |
 
@@ -20,7 +26,7 @@
 
 | Pattern | Problems | Mastery |
 |---|---|---|
-| [Two Pointers](patterns/two_pointers.md) | LC27, LC977, LC167, LC11, LC15, LC42, LC16, LC75, LC88 | 55% |
+| [Two Pointers](patterns/two_pointers.md) | LC27, LC283, LC977, LC167, LC11, LC15, LC42, LC16, LC75, LC88 | 55% |
 | [Sliding Window](patterns/sliding_window.md) | LC209, LC3, LC567 | 50% |
 | [Monotonic Stack](patterns/monotonic_stack.md) | LC496, LC739, LC901, LC84 | 40% |
 | [Binary Search on Answer](patterns/binary_search_on_answer.md) | LC875, LC1011, LC1283 | 45% |
@@ -38,6 +44,7 @@
 | # | Problem | Pattern | Difficulty | Confidence |
 |---|---|---|---|---|
 | [LC27](problems/LC27.md) | Remove Element | Two Pointers | Easy | 4/5 |
+| [LC283](problems/LC283.md) | Move Zeroes | Two Pointers | Easy | 4/5 |
 | [LC977](problems/LC977.md) | Squares of Sorted Array | Two Pointers | Easy | 4/5 |
 | [LC167](problems/LC167.md) | Two Sum II | Two Pointers | Medium | 4/5 |
 | [LC11](problems/LC11.md) | Container With Most Water | Two Pointers | Medium | 3/5 |
@@ -66,6 +73,7 @@
 Most DSA learners memorize solutions. This system builds *pattern recognition* — the ability to look at an unseen problem and identify which mental model applies, without hints.
 
 Four rules govern everything:
+
 1. **Pattern first.** Understand the pattern before touching code.
 2. **Dry run before coding.** Trace through a small example manually.
 3. **Never memorize code.** Reconstruct it from the algorithm every time.
@@ -77,27 +85,27 @@ Four rules govern everything:
 
 ```
 DSA-Mastery/
-├── README.md                    ← This file (live dashboard)
-├── DSA_Mastery_System_README.md ← System rules and philosophy
+├── README.md                          ← This file (live dashboard)
+├── DSA_Mastery_System_README.md       ← System rules and philosophy
 │
 ├── roadmap/
-│   ├── learning_roadmap.md      ← Ordered pattern progression
-│   ├── placement_plan.md        ← Interview timeline
+│   ├── learning_roadmap.md            ← Ordered pattern progression
+│   ├── placement_plan.md              ← Interview timeline
 │   └── pattern_dependency_map.md
 │
 ├── tracker/
-│   ├── progress_dashboard.md    ← High-level summary
-│   ├── mastery_tracker.md       ← Per-pattern mastery table
-│   ├── revision_tracker.md      ← Scheduled revision checkpoints
-│   └── interview_scores.md      ← Mock interview log
+│   ├── progress_dashboard.md          ← High-level summary
+│   ├── mastery_tracker.md             ← Per-pattern mastery table
+│   ├── revision_tracker.md            ← Scheduled revision checkpoints
+│   └── interview_scores.md            ← Mock interview log
 │
-├── patterns/                    ← Deep-dive per pattern
-├── problems/                    ← One file per LeetCode problem
-├── sessions/                    ← Daily session logs
-├── mental_models/               ← Thinking frameworks
-├── mistake_book/                ← Recurring errors and debug patterns
-├── interview_notes/             ← Mock checklists and question bank
-└── templates/                   ← Blank templates for new entries
+├── patterns/                          ← Deep-dive per pattern
+├── problems/                          ← One file per LeetCode problem
+├── sessions/                          ← Daily session logs
+├── mental_models/                     ← Thinking frameworks
+├── mistake_book/                      ← Recurring errors and debug patterns
+├── interview_notes/                   ← Mock checklists and question bank
+└── templates/                         ← Blank templates for new entries
 ```
 
 ---
@@ -117,11 +125,13 @@ DSA-Mastery/
 ## How to Use This Repo Daily
 
 ### Before coding
+
 1. Open [tracker/revision_tracker.md](tracker/revision_tracker.md) — complete any due revisions first.
 2. Identify the pattern for today's problems.
 3. Re-read the relevant pattern file.
 
 ### During a problem
+
 1. Write the **Recognition Trigger** that told you which pattern to use.
 2. Build the **Mental Model** — visualize state before writing code.
 3. **Dry run** with a small example on paper.
@@ -130,6 +140,7 @@ DSA-Mastery/
 6. Record your **Personal Mistakes** immediately after.
 
 ### After coding
+
 1. Create or update the problem file under `problems/`.
 2. Update the session log under `sessions/`.
 3. Update revision dates in [tracker/revision_tracker.md](tracker/revision_tracker.md).
