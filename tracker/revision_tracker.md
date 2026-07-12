@@ -7,9 +7,9 @@
 
 ## How to Use
 
-1. When you learn a problem, fill in the “Learned On” column.
+1. When you learn a problem, fill in the "Learned On" column.
 2. Calculate all revision dates from that date.
-3. Check this file every morning. Complete all “Due Today” revisions before new problems.
+3. Check this file every morning. Complete all "Due Today" revisions before new problems.
 4. After a revision, mark ✅ in the corresponding column. If recall failed, mark ❌ and re-schedule +1 day.
 
 ---
@@ -41,6 +41,35 @@
 
 ---
 
+## Session 002 — Revision Queue (2026-07-12)
+
+### Tomorrow (+1 Day — 2026-07-13)
+
+- LC167 — Two Sum II
+- LC11 — Container With Most Water
+- LC42 — Trapping Rain Water
+- Opposite Direction Variant — One unseen problem
+
+### +3 Days (2026-07-15)
+
+- LC167 — Two Sum II
+- LC11 — Container With Most Water
+- LC42 — Trapping Rain Water
+
+### +7 Days (2026-07-19)
+
+- Blind Retrieval — LC167, LC11, LC42
+
+### +14 Days (2026-07-26)
+
+- Blind Coding — LC167, LC11, LC42
+
+### +30 Days (2026-08-11)
+
+- Pattern Graduation Test — Opposite Direction Two Pointers
+
+---
+
 ## Revision Schedule
 
 | Problem | Learned On | Day 0 | +1 | +3 | +7 | +14 | +30 | Status |
@@ -48,10 +77,10 @@
 | LC27 | 2026-07-11 | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC283 | 2026-07-11 | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC977 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
-| LC167 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
-| LC11 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC167 | 2026-07-12 | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC11 | 2026-07-12 | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC15 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
-| LC42 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
+| LC42 | 2026-07-12 | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC16 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC75 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
 | LC88 | Fill in | ✅ | ☐ | ☐ | ☐ | ☐ | ☐ | Active |
@@ -72,8 +101,8 @@
 
 - ✅ = Solved cold in reasonable time, remembered the key insight.
 - ❌ = Could not recall or needed a hint. Re-schedule from today + 1.
-- If a +7 or +14 day revision fails, drop confidence by 1 point in mastery\_tracker.md.
-- A pattern is “interview-ready” only after the +14 day revision passes for all its problems.
+- If a +7 or +14 day revision fails, drop confidence by 1 point in mastery_tracker.md.
+- A pattern is "interview-ready" only after the +14 day revision passes for all its problems.
 
 ---
 
@@ -82,7 +111,7 @@
 | Pattern | Last Revised | Next Due | Status |
 |---|---|---|---|
 | Two Pointers — Read & Write | 2026-07-11 | 2026-07-12 | Active |
-| Two Pointers | — | Fill in | Pending |
+| Two Pointers — Opposite Direction | 2026-07-12 | 2026-07-13 | Active |
 | Sliding Window | — | Fill in | Pending |
 | Monotonic Stack | — | Fill in | Pending |
 | Binary Search on Answer | — | Fill in | Pending |

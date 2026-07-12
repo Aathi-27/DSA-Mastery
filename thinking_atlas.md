@@ -19,3 +19,25 @@ Ask: "What is the valid element?"
   ↓
 Apply Read & Write Pointer
 ```
+
+---
+
+# Opposite Direction Two Pointers
+
+```
+Question
+  ↓
+Sorted / Pair / Opposite Ends
+  ↓
+Identify Search Space
+  ↓
+Find Bottleneck
+  ↓
+Determine Invariant
+  ↓
+Prove Elimination
+  ↓
+Move Pointer
+  ↓
+Repeat
+```

@@ -10,12 +10,14 @@
 |---|---|
 | Patterns Active | 4 |
 | Problems Logged | 20 |
-| Sessions Completed | 3 |
-| Patterns Started | 1 |
-| Patterns Mastered | 0 |
+| Sessions Completed | 2 |
+| Patterns Started | 2 |
+| Patterns Mastered | 1 |
+| Problems Added (Session 002) | 3 |
+| Mental Models | 5 |
+| New Invariants | 3 |
+| Blind Retrieval Tests | 1 |
 | Unseen Problems Solved | 1 |
-| Mental Models | 3 |
-| New Invariants | 1 |
 | Recognition Triggers | 5 |
 | Overall Mastery | ~40% |
 | Next Revision Due | See [tracker/revision_tracker.md](tracker/revision_tracker.md) |
